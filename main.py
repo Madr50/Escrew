@@ -1,9 +1,3 @@
-“””
-EscrowBot - Global Escrow & Micro-Trade Telegram Bot
-Single-file architecture: FastAPI + aiogram + SQLite + React (CDN, in-browser Babel)
-Deploy on Render: start command -> uvicorn main:app –host 0.0.0.0 –port $PORT
-“””
-
 import asyncio
 import hashlib
 import hmac
